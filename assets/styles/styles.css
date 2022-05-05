@@ -1,0 +1,99 @@
+* {
+    
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body {
+    font-family: "Relaway", "Arial", sans-serif;
+  }
+
+
+.tabs {
+    max-width: 1170px;
+    width: calc(1170px + 32px *2);
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.section__article {
+    width: 1170px;
+    height: 500px;
+    border: 1px solid #C6CBCD;
+    
+    
+    
+}
+
+
+.tabs--switcher {
+    font-family: "Open Sans";
+    max-width: 1170px;
+
+}
+
+
+.btn  {
+    width: 184px;
+    height: 40px;
+    border: none;
+    background-color: #FFFFFF;
+    
+    
+}
+
+
+.btn-active {
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-bottom: none;
+    
+
+}
+
+
+.title {
+    width: 570px;
+    height: 124px;
+    margin: 0px 30px 0px 100px;
+    font-family: "Open Sans";
+    display: inline-block;
+font-size: 30px;
+padding: 40px 0px 0px 0px;
+
+}
+
+
+.description {
+    margin: 0px 30px 0px 100px;
+    display: inline-block;
+    width: 570px;
+    height: 210px;
+    font-size: 18px;
+   line-height: 21px;
+
+    
+
+}
+
+.statue {
+    position: absolute;
+    top: 48px;
+}
+
+.download {
+    
+   width: 270px;
+    height: 58px;
+    background-color:#EC7979;
+    color: #FFFFFF;
+    margin: 27px 330px 54px 100px;
+    border: 0px;
+}
